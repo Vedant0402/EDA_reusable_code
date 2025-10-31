@@ -58,3 +58,159 @@ Each day built upon the previous one, making the learning experience progressive
 ```bash
 pip install pandas numpy seaborn matplotlib plotly ydata-profiling sweetviz missingno scikit-learn
 
+Day 1 – EDA Foundations & Setup
+
+Dataset: tips
+
+Learned EDA workflow (load → inspect → summarize → visualize)
+
+Checked dataset structure, shape, datatypes, missing values
+
+Built a reusable EDA template for all future days
+
+Tools: info(), describe(), pairplot, and quick summary functions
+
+
+
+Day 2 – Data Profiling & Summary Statistics
+
+Dataset: tips
+
+Explored data types, counts, and distributions
+
+Created a summary DataFrame including skewness & kurtosis
+
+Built a custom profiling function
+
+Learned to handle numeric vs categorical summaries
+
+
+
+Day 3 – Missing Value Detection & Imputation
+
+Dataset: titanic
+
+Detected missingness via isnull() and missingno visualizations
+
+Learned types: MCAR, MAR, MNAR
+
+Performed:
+
+Mean/Median/Mode imputation
+
+Group-wise imputation
+
+KNN Imputer for advanced handling
+
+Verified results visually & statistically
+
+
+
+Day 4 – Outlier Detection & Treatment
+
+Dataset: titanic
+
+Learned IQR method and Z-score method for outliers
+
+Visualized with boxplots
+
+Applied:
+
+Outlier removal
+
+Winsorization (capping)
+
+Log transformations
+
+Compared data before and after treatment
+
+
+
+Day 5 – Univariate Analysis
+
+Dataset: iris
+
+Explored individual features using:
+
+Histograms
+
+KDE plots
+
+Boxplots
+
+Violin plots
+
+Learned skewness & kurtosis interpretation
+
+Analyzed categorical distributions (countplots & pie charts)
+
+
+
+Day 6 – Bivariate Analysis
+
+Dataset: penguins
+
+Analyzed relationships between:
+
+Numeric–numeric → scatterplots, correlation
+
+Categorical–numeric → boxplots, violinplots
+
+Categorical–categorical → crosstabs, countplots
+
+Performed Pearson correlation and Chi-square tests
+
+
+
+Day 7 – Multivariate & Advanced Visualizations
+
+Dataset: flights + iris
+
+Created multi-variable plots:
+
+Heatmaps
+
+FacetGrid (subplots by category)
+
+PairGrid (custom pairwise visuals)
+
+Jointplot (scatter + density)
+
+Built interactive plots using Plotly
+
+Derived seasonality & trend insights
+
+
+
+Day 8 – Feature Engineering within EDA
+
+Dataset: mpg
+
+Created new features (power_to_weight, car_age, engine_size_category)
+
+Applied:
+
+Label encoding & one-hot encoding
+
+Standard scaling & log transformations
+
+Rare category grouping
+
+Analyzed correlation changes after transformations
+
+
+
+Day 9 – Automated EDA Reports & Insights
+
+Dataset: titanic
+
+Used:
+
+ydata-profiling for HTML-based full EDA reports
+
+Generated Titanic_EDA_Report.html & Titanic_Sweetviz_Report.html
+
+Wrote business insights tables and summaries for stakeholders
+
+
+
