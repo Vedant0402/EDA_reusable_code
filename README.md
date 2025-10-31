@@ -55,8 +55,10 @@ Each day built upon the previous one, making the learning experience progressive
 
 ## ⚙️ Environment Setup
 
-```bash
+
 pip install pandas numpy seaborn matplotlib plotly ydata-profiling sweetviz missingno scikit-learn
+
+---
 
 Day 1 – EDA Foundations & Setup
 
