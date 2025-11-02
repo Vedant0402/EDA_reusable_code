@@ -216,3 +216,30 @@ Wrote business insights tables and summaries for stakeholders
 
 
 
+Day 10 – Final Case Study (Capstone)
+
+Dataset: Custom (EV dataset / HR dataset / Kaggle dataset)
+
+Tasks:
+
+Perform end-to-end EDA
+
+Handle missing values, outliers, and feature engineering
+
+Create automated EDA reports
+
+Write professional insight summaries
+
+
+Deliverables:
+
+Final_EDA_CaseStudy.ipynb
+
+Auto_EDA_Report.html
+
+Insights_Report.pdf
+
+
+Outcome:
+
+A portfolio-ready EDA project demonstrating complete real-world data analysis workflow.
